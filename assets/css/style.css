@@ -171,7 +171,7 @@ table tr:last-child th:first-child {
     padding-right: 20px;
 }
 .icons{
-    font-size: 22px;
+    width: 32px;
     padding-right: 10px;
 }
 .arrow-pad{
@@ -219,25 +219,33 @@ th,td{
 
 
 .create-border{
-    border: 1px solid #E4F6EC ;
-    background-color: #E4F6EC;
+    
+    
     margin-top: 27px;
     margin-left: 328px;
     padding: 7px;
+    width: 105px;
+    background: #E4F6EC;
+    box-shadow: -1px 1px 2px rgba(151, 163, 157, 0.2), 1px -1px 2px rgba(151, 163, 157, 0.2), -1px -1px 2px rgba(255, 255, 255, 0.9), 1px 1px 3px rgba(151, 163, 157, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(151, 163, 157, 0.5);
+    border-radius: 6px;
 }
 .create-border-product{
-    border: 1px solid #FFF1E2 ;
-    background-color: #FFF1E2;
+    
     margin-top: 27px;
     margin-left: 328px;
     padding: 7px;
+    background: #FFF1E2;
+    box-shadow: -1px 1px 2px rgba(151, 163, 157, 0.2), 1px -1px 2px rgba(151, 163, 157, 0.2), -1px -1px 2px rgba(255, 255, 255, 0.9), 1px 1px 3px rgba(151, 163, 157, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(151, 163, 157, 0.5);
+    border-radius: 6px;
 }
 .create-border-quotation{
-    border: 1px solid #E2EAFF;
-    background-color: #E2EAFF;
+   border: none;
     margin-top: 27px;
     margin-left: 328px;
     padding: 7px;
+    background: #E2EAFF;
+    box-shadow: -1px 1px 2px rgba(151, 163, 157, 0.2), 1px -1px 2px rgba(151, 163, 157, 0.2), -1px -1px 2px rgba(255, 255, 255, 0.9), 1px 1px 3px rgba(151, 163, 157, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(151, 163, 157, 0.5);
+    border-radius: 6px;
 }
 .icon-pad{
     padding: 8px;
@@ -253,6 +261,7 @@ th,td{
 }
 select {
     background-color: antiquewhite !important;
+    border: none;
 }
 .printer-color{
     color: blue;
@@ -282,6 +291,17 @@ select {
     background: #C2976C;
     box-shadow: -1px 1px 2px rgba(151, 163, 157, 0.2), 1px -1px 2px rgba(151, 163, 157, 0.2), -1px -1px 2px rgba(255, 255, 255, 0.9), 1px 1px 3px rgba(151, 163, 157, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(151, 163, 157, 0.5);
     border-radius: 6px;
+    
+}
+.a-create-jobcard{
+    text-decoration: none;
+    color: black;
+    padding: 3px 8px 3px 8px
+}
+.a-create-jobcard:hover{
+    text-decoration: none;
+    color: black;
+    padding: 3px 8px 3px 8px
 }
 .button-margin{
     margin-left: 18px;
@@ -293,12 +313,13 @@ select {
 }
 .back-color{
     background-color: #FFE2E2;
-    border: 1px solid #FFE2E2 ;
+    border:none;
     margin-top: 27px;
     margin-left: 328px;
     padding: 1px 11px 1px 5px;
     box-shadow: -1px 1px 2px rgba(151, 163, 157, 0.2), 1px -1px 2px rgba(151, 163, 157, 0.2), -1px -1px 2px rgba(255, 255, 255, 0.9), 1px 1px 3px rgba(151, 163, 157, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(151, 163, 157, 0.5);
 border-radius: 6px;
+width: 100px;
 }
 .add-job-card-border{
     border: 1px solid #c5bbbb;
@@ -317,15 +338,17 @@ border-radius: 6px;
     border: none;
     background: #00960F;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 8px
-    
+border-radius: 8px;
+color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .button-align{
     justify-content: center;
 }
 .back-color-add-customer{
     background-color: #EDFFF6;
-    border: 1px solid #EDFFF6 ;
+    border: none ;
     margin-top: 27px;
     margin-left: 328px;
     padding: 1px 11px 1px 5px;
@@ -340,7 +363,7 @@ border-radius: 6px;
 }
 .back-color-add-product{
     background-color: #FFF1E2;
-    border: 1px solid #FFF1E2 ;
+    border: none;
     margin-top: 27px;
     margin-left: 328px;
     padding: 1px 11px 1px 5px;
@@ -352,4 +375,123 @@ border-radius: 6px;
     background-color:  #FFF1E2;
     border: 1px solid   #FFF1E2;
     width: 200px;
+}
+.a-back-addjobcard{
+    text-decoration: none;
+    color: black;
+    display: block;
+    
+}
+.a-back-addjobcard:hover{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.a-create-customer{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.a-create-customer:hover{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.a-back-addcustomer{
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 100px;
+}
+.a-back-addcustomer:hover{
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 100px;
+}
+.a-create-product{
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 100px;
+}
+.a-create-product:hover{
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 100px;
+}
+
+
+.file-input__input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .file-input__label {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    font-size: 14px;
+    padding: 4px 32px;
+    background: #FFF1E2;
+box-shadow: -1px 1px 2px rgba(151, 163, 157, 0.2), 1px -1px 2px rgba(151, 163, 157, 0.2), -1px -1px 2px rgba(255, 255, 255, 0.9), 1px 1px 3px rgba(151, 163, 157, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(151, 163, 157, 0.5);
+border-radius: 6px;
+  }
+  
+  .file-input__label svg {
+    height: 16px;
+    margin-right: 4px;
+  }
+  .add-image{
+
+    padding-top: 22px;
+    padding-left: 118px;
+
+  }
+  .camera-size{
+      font-size: 25px;
+      padding-left: 8px;
+      padding-right: 8px;
+  }
+  .active {
+   
+    color: black
+  }
+
+  .a-create-quotation{
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 102px;
+}
+.a-create-quotation:hover{
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 102px;
+}
+.back-color-add-quotation{
+    background-color:  #E5ECFF;
+    border: none ;
+    margin-top: 27px;
+    margin-left: 328px;
+    padding: 1px 11px 1px 5px;
+    box-shadow: -1px 1px 2px rgba(151, 163, 157, 0.2), 1px -1px 2px rgba(151, 163, 157, 0.2), -1px -1px 2px rgba(255, 255, 255, 0.9), 1px 1px 3px rgba(151, 163, 157, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(151, 163, 157, 0.5);
+border-radius: 6px;
+
+}
+.container-padding{
+    padding: 50px;
+}
+tbody, td, tfoot, th, thead, tr {
+    border: none !important;
 }
