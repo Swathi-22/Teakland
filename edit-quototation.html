@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product</title>
+    <title>Add Quotation</title>
     <!-- CSS only -->
 
     <!-- bootstrap -->
@@ -25,8 +25,7 @@
 
         <div class="row flex-wrap">
 
-
-            <div class="col-auto col-md-3 col-xl-2 px-0 bg-light">
+            <div class="col-auto col-md-3 col-xl-2 px-0 opacity-icon">
                 <div>
                     <img src="assets/image/Frame.png" class="d-block mx-auto logo-pad" alt="">
                 </div>
@@ -47,7 +46,7 @@
 
 
                         <li class="sidebar-li-items customer-hover">
-                            <a href="customer-list.html" class="sidebar-li-items">
+                            <a href="customer.html" class="sidebar-li-items">
 
                                 <img src="assets/image/2-1.png" id="customer-hover-image" class="icons customer-hover"
                                     alt="">
@@ -58,7 +57,7 @@
                             </a>
                         </li>
                         <li class="sidebar-li-items product-hover">
-                            <a href="product-list.html" class="sidebar-li-items active">
+                            <a href="product.html" class="sidebar-li-items ">
                                 <img src="assets/image/3-1.png" id="product-hover-image" class="icons product-hover"
                                     alt="">
                                 Product
@@ -69,7 +68,7 @@
                         </li>
 
                         <li class="sidebar-li-items quotation-hover">
-                            <a href="quototation.html" class="sidebar-li-items ">
+                            <a href="quototation.html" class="sidebar-li-items active ">
                                 <img src="assets/image/0-1.png" id="quotation-hover-image" class="icons quotation-hover"
                                     alt="">
                                     Quototation
@@ -99,7 +98,7 @@
                             </a>
                         </li>
                         <li class="sidebar-li-items expense-hover">
-                            <a href="" class="sidebar-li-items">
+                            <a href="expense.html" class="sidebar-li-items">
                                 <img src="assets/image/6-1.png" id="expense-hover-image" class="icons expense-hover"
                                     alt="">
                                 Expense
@@ -109,7 +108,7 @@
                             </a>
                         </li>
                         <li class="sidebar-li-items income-hover">
-                            <a href="" class="sidebar-li-items">
+                            <a href="income.html" class="sidebar-li-items">
                                 <img src="assets/image/7-1.png" id="income-hover-image" class="icons income-hover"
                                     alt="">
                                 Income
@@ -119,7 +118,7 @@
                             </a>
                         </li>
                         <li class="sidebar-li-items reports-hover">
-                            <a href="" class="sidebar-li-items">
+                            <a href="report.html" class="sidebar-li-items">
                                 <img src="assets/image/8-1.png" id="reports-hover-image" class="icons reports-hover"
                                     alt="">
                                 Reports
@@ -130,7 +129,7 @@
                         </li>
                         <li class="sidebar-li-items users-hover">
                             <a href="" class="sidebar-li-items">
-                                <img src="assets/image/9-1.png" id="users-hover-image" class="icons users-hover" alt="">
+                                <img src="assets/image/9-1.png"  id="users-hover-image" class="icons users-hover" alt="">
                                 Users
                                 <div class="d-inline-flex float-end arrow-pad">
                                     <i class="icofont-rounded-right "></i>
@@ -146,7 +145,7 @@
                     </ul>
 
 
-
+              
 
                 </div>
             </div>
@@ -174,16 +173,15 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="dashboard-pading">
-                                <h4 class="jobcard-font">Add Product </h4>
-
+                                <h4 class="jobcard-font">Edit Quotation </h4>
+                                
                             </div>
                         </div>
                         <diV class="col-lg-6">
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="">
-                                        <span><a class=" back-color-add-product a-back-addcustomer"
-                                                href="product.html"><i
+                                        <span><a class=" back-color-add-quotation a-back-addcustomer" href="quotation.html"><i
                                                     class="icofont-long-arrow-left icon-pad "></i>Back</a></span>
                                     </div>
                                 </div>
@@ -191,93 +189,66 @@
                             </div>
 
                         </diV>
-                        <form action="" class="add-product-border">
+                        <form action="" class="add-customer-border">
                             <div class="row add-job-card-pad">
-                                <div class="col-lg-6">
+                                <label for="">Quotation Number 1102</label>
+                                <div class="col-lg-4">
                                     <div>
-                                        <label for="">Product Name</label>
+                                        <label for="">Customer</label>
                                     </div>
                                     <div>
                                         <input type="text" class="form-control">
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-4">
                                     <div>
-                                        <label for=""> Type</label>
+                                        <label for=""> Salesman</label>
                                     </div>
                                     <div>
                                         <input type="text" class="form-control">
                                     </div>
                                 </div>
-
+                                <div class="col-lg-4">
+                                    <div>
+                                        <label for="">Branch </label>
+                                    </div>
+                                    <div>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
                             </div>
                             <div class="row add-job-card-section-pad">
-                                <div class="col-lg-8">
-                                    <div class="row ">
-                                        <div class="col-lg-6">
-                                            <div>
-                                                <label for="">Height</label>
-                                            </div>
-                                            <div>
-                                                <input type="text" class="form-control">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div>
-                                                <label for="">Width</label>
-                                            </div>
-                                            <div>
-                                                <input type="text" class="form-control">
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="row add-job-card-section-pad">
-                                        <div class="col-lg-6">
-                                            <div>
-                                                <label for="">Height</label>
-                                            </div>
-                                            <div>
-                                                <input type="text" class="form-control">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div>
-                                                <label for="">Width</label>
-                                            </div>
-                                            <div>
-                                                <input type="text" class="form-control">
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                    <div class="row add-job-card-section-pad">
-                                        <div class="col-lg-12">
-                                            <div>
-                                                <label for="">Remark</label>
-                                                <textarea class="form-control" id="textAreaExample3"
-                                                    rows="2"></textarea>
-
-                                            </div>
-
-
-                                        </div>
-                                    </div>
-                                </div>
-
                                 <div class="col-lg-4">
-                                    <img src="assets/image/wooden-window-500x500.jpg" alt="" class="product-image">
+                                    <div>
+                                        <label for="">Date</label>
+                                    </div>
+                                    <div>
+                                        <input type="date" class="form-control">
+                                    </div>
                                 </div>
-
+                                <div class="col-lg-4">
+                                    <div>
+                                        <label for="">Payment Terms</label>
+                                    </div>
+                                    <div>
+                                        <input type="tel" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div>
+                                        <label for="">Products</label>
+                                    </div>
+                                    <div>
+                                        <input type="email" class="form-control">
+                                    </div>
+                                </div>
                                 <div class="row pt-4 button-align">
-
-                                    <button class="add-job-card-button">Add Product</button>
+                                    <button class="add-job-card-button">Add Quotation</button>
 
                                 </div>
                             </div>
-
-
+                           
+                            
                         </form>
                     </div>
 

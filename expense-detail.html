@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job Card - Open</title>
-    <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!-- style -->
-
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!-- iconfont -->
-
-    <link rel="stylesheet" href="assets/css/icofont/icofont.min.css">
-    <link rel="stylesheet" href="assets/css/bootstrap-table.css">
-
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Expense <Details></Details></title>
+        <!-- CSS only -->
+    
+        <!-- bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!-- style -->
+    
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!-- iconfont -->
+    
+        <link rel="stylesheet" href="assets/css/icofont/icofont.min.css">
+        <link rel="stylesheet" href="assets/css/bootstrap-table.css">
+    
+    
+    </head>
 
 <body>
     <div class="container-fluid">
@@ -25,7 +28,7 @@
         <div class="row flex-wrap">
 
 
-            <div class="col-auto col-md-3 col-xl-2 px-0 bg-light">
+            <div class="col-auto col-md-3 col-xl-2 px-0 opacity-icon">
                 <div>
                     <img src="assets/image/Frame.png" class="d-block mx-auto logo-pad" alt="">
                 </div>
@@ -78,7 +81,7 @@
                             </a>
                         </li>
                         <li class="sidebar-li-items jobcard-hover">
-                            <a href="job-card.html" class="sidebar-li-items active">
+                            <a href="job-card.html" class="sidebar-li-items ">
                                 <img src="assets/image/4-1.png" id="jobcard-hover-image" class="icons jobcard-hover"
                                     alt="">
                                 Job Card
@@ -88,7 +91,7 @@
                             </a>
                         </li>
                         <li class="sidebar-li-items invoice-hover">
-                            <a href="" class="sidebar-li-items">
+                            <a href="invoice.html" class="sidebar-li-items  ">
                                 <img src="assets/image/5-1.png" id="invoice-hover-image" class="icons invoice-hover"
                                     alt="">
                                 Invoice
@@ -98,7 +101,7 @@
                             </a>
                         </li>
                         <li class="sidebar-li-items expense-hover">
-                            <a href="" class="sidebar-li-items">
+                            <a href="expense.html" class="sidebar-li-items active">
                                 <img src="assets/image/6-1.png" id="expense-hover-image" class="icons expense-hover"
                                     alt="">
                                 Expense
@@ -108,7 +111,7 @@
                             </a>
                         </li>
                         <li class="sidebar-li-items income-hover">
-                            <a href="" class="sidebar-li-items">
+                            <a href="income.html" class="sidebar-li-items">
                                 <img src="assets/image/7-1.png" id="income-hover-image" class="icons income-hover"
                                     alt="">
                                 Income
@@ -118,7 +121,7 @@
                             </a>
                         </li>
                         <li class="sidebar-li-items reports-hover">
-                            <a href="" class="sidebar-li-items">
+                            <a href="report.html" class="sidebar-li-items">
                                 <img src="assets/image/8-1.png" id="reports-hover-image" class="icons reports-hover"
                                     alt="">
                                 Reports
@@ -153,7 +156,7 @@
             </div>
 
 
-            <div class="col">
+            <div class="col bgcolor">
 
                 <nav class="navbar navbar-light bg-nav">
                     <div class="container-fluid navbar-icon">
@@ -174,13 +177,19 @@
 
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-2">
+                        <div class="col-lg-10">
                             <div class="dashboard-pading">
-                                <h4 class="jobcard-font">Job Card </h4>
+                                <h4 class="jobcard-font">Expense </h4>
                                 <span class="date-color-job-card">January 22</span>
                             </div>
                         </div>
-                        <div class="col-lg-10">
+                        <div class="col-lg-2 expense-back ">
+                            <div class="back-button-style ">
+                                <a href="expense-detail.html" class="back-button-color"><i class="icofont-long-arrow-left"></i> Back</a>
+                                
+                            </div>
+                        </div>
+                        <!-- <div class="col-lg-10">
                             <div class="py-4 pr-3">
                                 <div class="row">
                                     <div class="col-lg-2 button-margin "><a
@@ -202,183 +211,119 @@
                                 </div>
                             </div>
 
-                        </div>
+                        </div> -->
 
                     </div>
 
-                    <div class="open-div">
+                    <!-- <div class="open-div">
 
-                    </div>
-                    <div class="pt-4 ">
-                        <table class="table " id="example">
-                            
+                    </div> -->
+                    <div class="container mt-4">
+                        
+                        <table class="table" id="example">
                             <thead>
+
+
                                 <tr class="border th-color">
-                                    <th>Quotation Number</th>
-                                    <th>Customer</th>
-                                    <th>User</th>
-                                    <th>Salesman</th>
-                                    <th>Payment Terms</th>
-                                    <th>Products</th>
+
                                     <th>Date</th>
-
-                                    <!-- <th>Edit</th>
-                                    <th>Delete</th> -->
-                                    <th></th>
-
+                                    <th>Particular</th>
+                                    <th>Amount</th>
                                 </tr>
                             </thead>
-                            <tbody class="td-color-quotation">
+                            <tbody class="td-color-job-card">
                                 <tr>
-                                    <td>101</td>
-                                    <td>customer</td>
-                                    <td>user</td>
-                                    <td>payment</td>
-                                    <td>product</td>
 
-
-                                    <td>100000</td>
-                                    <td>11/02/2001</td>
-                                    <!-- <td><a href=""><i class="icofont-ui-edit edit-edit"></i></a></td>
-                                    <td><a href=""><i class="icofont-ui-delete delete-delete"></i></a></td> -->
-                                    <td><i class="icofont-print printer-color"></i></td>
+                                    <td>22/03/2022</td>
+                                    <td>is simply dummy text of the printing and</td>
+                                    <td>55,770</td>
                                 </tr>
                                 <tr>
-                                    <td>101</td>
-                                    <td>customer</td>
-                                    <td>user</td>
-                                    <td>payment</td>
-                                    <td>product</td>
-
-
-                                    <td>100000</td>
-                                    <td>11/02/2001</td>
-                                    <!-- <td><a href=""><i class="icofont-ui-edit edit-edit"></i></a></td>
-                                    <td><a href=""><i class="icofont-ui-delete delete-delete"></i></a></td> -->
-                                    <td><i class="icofont-print printer-color"></i></td>
+                                    <td>22/03/2022</td>
+                                    <td>is simply dummy text of the printing and</td>
+                                    <td>55,770</td>
                                 </tr>
                                 <tr>
-                                    <td>101</td>
-                                    <td>customer</td>
-                                    <td>user</td>
-                                    <td>payment</td>
-                                    <td>product</td>
-
-
-                                    <td>100000</td>
-                                    <td>11/02/2001</td>
-                                    <!-- <td><a href=""><i class="icofont-ui-edit edit-edit"></i></a></td>
-                                    <td><a href=""><i class="icofont-ui-delete delete-delete"></i></a></td> -->
-                                    <td><i class="icofont-print printer-color"></i></td>
+                                    <td>22/03/2022</td>
+                                    <td>is simply dummy text of the printing and</td>
+                                    <td>55,770</td>
                                 </tr>
                                 <tr>
-                                    <td>101</td>
-                                    <td>customer</td>
-                                    <td>user</td>
-                                    <td>payment</td>
-                                    <td>product</td>
-
-
-                                    <td>100000</td>
-                                    <td>11/02/2001</td>
-                                    <!-- <td><a href=""><i class="icofont-ui-edit edit-edit"></i></a></td>
-                                    <td><a href=""><i class="icofont-ui-delete delete-delete"></i></a></td> -->
-                                    <td><i class="icofont-print printer-color"></i></td>
+                                    <td>22/03/2022</td>
+                                    <td>is simply dummy text of the printing and</td>
+                                    <td>55,770</td>
                                 </tr>
                                 <tr>
-                                    <td>101</td>
-                                    <td>customer</td>
-                                    <td>user</td>
-                                    <td>payment</td>
-                                    <td>product</td>
-
-
-                                    <td>100000</td>
-                                    <td>11/02/2001</td>
-                                    <!-- <td><a href=""><i class="icofont-ui-edit edit-edit"></i></a></td>
-                                    <td><a href=""><i class="icofont-ui-delete delete-delete"></i></a></td> -->
-                                    <td><i class="icofont-print printer-color"></i></td>
+                                    <td>22/03/2022</td>
+                                    <td>is simply dummy text of the printing and</td>
+                                    <td>55,770</td>
                                 </tr>
                                 <tr>
-                                    <td>101</td>
-                                    <td>customer</td>
-                                    <td>user</td>
-                                    <td>payment</td>
-                                    <td>product</td>
-
-
-                                    <td>100000</td>
-                                    <td>11/02/2001</td>
-                                    <!-- <td><a href=""><i class="icofont-ui-edit edit-edit"></i></a></td>
-                                    <td><a href=""><i class="icofont-ui-delete delete-delete"></i></a></td> -->
-                                    <td><i class="icofont-print printer-color"></i></td>
+                                    <td>22/03/2022</td>
+                                    <td>is simply dummy text of the printing and</td>
+                                    <td>55,770</td>
                                 </tr>
                                 <tr>
-                                    <td>101</td>
-                                    <td>customer</td>
-                                    <td>user</td>
-                                    <td>payment</td>
-                                    <td>product</td>
-
-
-                                    <td>100000</td>
-                                    <td>11/02/2001</td>
-                                    <!-- <td><a href=""><i class="icofont-ui-edit edit-edit"></i></a></td>
-                                    <td><a href=""><i class="icofont-ui-delete delete-delete"></i></a></td> -->
-                                    <td><i class="icofont-print printer-color"></i></td>
+                                    <td>22/03/2022</td>
+                                    <td>is simply dummy text of the printing and</td>
+                                    <td>55,770</td>
                                 </tr>
                                 <tr>
-                                    <td>101</td>
-                                    <td>customer</td>
-                                    <td>user</td>
-                                    <td>payment</td>
-                                    <td>product</td>
-
-
-                                    <td>100000</td>
-                                    <td>11/02/2001</td>
-                                    <!-- <td><a href=""><i class="icofont-ui-edit edit-edit"></i></a></td>
-                                    <td><a href=""><i class="icofont-ui-delete delete-delete"></i></a></td> -->
-                                    <td><i class="icofont-print printer-color"></i></td>
-                                </tr>
-
-                                <tr>
-                                    <td>101</td>
-                                    <td>customer</td>
-                                    <td>user</td>
-                                    <td>payment</td>
-                                    <td>product</td>
-
-
-                                    <td>100000</td>
-                                    <td>11/02/2001</td>
-                                    <!-- <td><a href=""><i class="icofont-ui-edit edit-edit"></i></a></td>
-                                    <td><a href=""><i class="icofont-ui-delete delete-delete"></i></a></td> -->
-                                    <td><i class="icofont-print printer-color"></i></td>
+                                    <td>22/03/2022</td>
+                                    <td>is simply dummy text of the printing and</td>
+                                    <td>55,770</td>
                                 </tr>
                                 <tr>
-                                    <td>101</td>
-                                    <td>customer</td>
-                                    <td>user</td>
-                                    <td>payment</td>
-                                    <td>product</td>
-
-
-                                    <td>100000</td>
-                                    <td>11/02/2001</td>
-                                    <!-- <td><a href=""><i class="icofont-ui-edit edit-edit"></i></a></td>
-                                    <td><a href=""><i class="icofont-ui-delete delete-delete"></i></a></td> -->
-                                    <td><i class="icofont-print printer-color"></i></td>
+                                    <td>22/03/2022</td>
+                                    <td>is simply dummy text of the printing and</td>
+                                    <td>55,770</td>
+                                </tr>
+                                <tr>
+                                    <td>22/03/2022</td>
+                                    <td>is simply dummy text of the printing and</td>
+                                    <td>55,770</td>
+                                </tr>
+                                <tr>
+                                    <td>22/03/2022</td>
+                                    <td>is simply dummy text of the printing and</td>
+                                    <td>55,770</td>
+                                </tr>
+                                <tr>
+                                    <td>22/03/2022</td>
+                                    <td>is simply dummy text of the printing and</td>
+                                    <td>55,770</td>
+                                </tr>
+                                <tr>
+                                    <td>22/03/2022</td>
+                                    <td>is simply dummy text of the printing and</td>
+                                    <td>55,770</td>
+                                </tr>
+                                <tr>
+                                    <td>22/03/2022</td>
+                                    <td>is simply dummy text of the printing and</td>
+                                    <td>55,770</td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
+
+                    
                 </div>
 
 
             </div>
         </div>
     </div>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="assets/js/data-table.js "></script>
+    <script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js" defer></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
