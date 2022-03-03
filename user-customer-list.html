@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Income Details</title>
-        <!-- CSS only -->
-    
-         <!-- bootstrap -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Customer List</title>
+    <!-- CSS only -->
+
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- style -->
 
@@ -17,14 +16,16 @@
     <!-- iconfont -->
     <link rel="stylesheet" href="assets/css/icofont/icofont.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap-table.css">
-    
-    
-    </head>
+
+</head>
 
 <body>
-    <div class="container-fluid">
 
+
+
+    <div class="container-fluid">
         <div class="row flex-wrap">
+
 
             <div class="col-auto col-md-3 col-xl-2 px-0 opacity-icon">
                 <div>
@@ -34,7 +35,7 @@
                     <ul class="ul-item ">
 
                         <li class="sidebar-li-items dasboard-hover">
-                            <a href="index.html" class="sidebar-li-items active ">
+                            <a href="user-dashboard.html" class="sidebar-li-items active ">
 
                                 <img src="assets/image/1-1.png " id="dashboard-hover-image" class="icons dasboard-hover"
                                     alt="">
@@ -47,7 +48,7 @@
 
 
                         <li class="sidebar-li-items customer-hover">
-                            <a href="customer-list.html" class="sidebar-li-items">
+                            <a href="user-customer-list.html" class="sidebar-li-items">
 
                                 <img src="assets/image/2-1.png" id="customer-hover-image" class="icons customer-hover"
                                     alt="">
@@ -58,7 +59,7 @@
                             </a>
                         </li>
                         <li class="sidebar-li-items product-hover">
-                            <a href="product-list.html" class="sidebar-li-items">
+                            <a href="user-product-list.html" class="sidebar-li-items">
                                 <img src="assets/image/3-1.png" id="product-hover-image" class="icons product-hover"
                                     alt="">
                                 Product
@@ -69,7 +70,7 @@
                         </li>
 
                         <li class="sidebar-li-items quotation-hover">
-                            <a href="quotation.html" class="sidebar-li-items">
+                            <a href="user-quotation.html" class="sidebar-li-items">
                                 <img src="assets/image/0-1.png" id="quotation-hover-image" class="icons quotation-hover"
                                     alt="">
                                 Quotation
@@ -131,7 +132,7 @@
                         
                     </ul>
 
- 
+
                     <div class="box py-3">
                         <ul  class="ul-item ">
                             <li class="sidebar-li-items ">
@@ -195,7 +196,6 @@
 
 
             <div class="col bgcolor">
-
                 <nav class="navbar navbar-light bg-nav">
                     <div class="container-fluid navbar-icon">
                         <div class="row">
@@ -212,173 +212,205 @@
 
                     </div>
                 </nav>
-
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-10">
+                        <div class="col-lg-6">
                             <div class="dashboard-pading">
-                                <h4 class="jobcard-font">Income </h4>
-                                <span class="date-color-job-card">January 22</span>
+                                <h4 class="dashboard-font">Customer List </h4>
+
                             </div>
                         </div>
-                        <!-- <div class="col-lg-2 expense-back ">
-                            <div class="back-button-style ">
-                                <a href="" class="back-button-color"><i class="icofont-long-arrow-left"></i> Back</a>
+
+                        <diV class="col-lg-6">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="">
+                                            <button class="create-border-product a-create-product btn-success"><i
+                                                        class="icofont-plus icon-pad"></i>Create</button>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+    
+                            </diV>
+
+                        <!-- <diV class="col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="">
+                                        <span><a class="create-border a-create-customer" href="add-customer.html"><i
+                                                    class="icofont-plus icon-pad"></i>Create</a></span>
+                                    </div>
+                                </div>
                                 
                             </div>
-                        </div> -->
-                        <!-- <div class="col-lg-10">
-                            <div class="py-4 pr-3">
-                                <div class="row">
-                                    <div class="col-lg-2 button-margin "><a
-                                            class="job-card-buttons-open a-create-jobcard" href="jobcard-open.html">
-                                            Open</a></div>
-                                    <div class="col-lg-2 button-margin"><a class="job-card-buttons a-create-jobcard"> On
-                                            process</a>
-                                    </div>
-                                    <div class="col-lg-2 button-margin"> <a class="job-card-buttons a-create-jobcard">
-                                            Completed</a>
-                                    </div>
-                                    <div class="col-lg-2 button-margin"> <a class="job-card-buttons a-create-jobcard">
-                                            Delivered</a>
-                                    </div>
-                                    <div class="col-lg-2 "><a class="job-card-buttons  a-create-jobcard"
-                                            href="add-job-card.html"><i class="icofont-plus icon-pad"></i>Create</a>
-                                    </div>
 
-                                </div>
-                            </div>
-
-                        </div> -->
+                        </diV> -->
 
                     </div>
 
-                    <!-- <div class="open-div">
 
-                    </div> -->
-                    <div class="container mt-4">
+                    <div class="container-fluid container-padding" >
                         
-                        <table class="table" id="example">
+                        <table class="table  " id="example">
                             <thead>
-
-
                                 <tr class="border th-color">
-
+                                    <th>Sl No</th>
                                     <th>Date</th>
-                                    <th>Invoice Number</th>
-                                    <th>Quotation Number</th>
-                                    <th>Customer</th>
-                                    <th>Payment Received</th>
+                                    <th>Name</th>
+                                    <th>Contact Number</th>
+                                    
+                                    <th>Users</th>
+                                    <th>Dealt By</th>
+                                    
+                                    
+                                    <th>Edit</th>
+                                    <th>Delete</th>
+
                                 </tr>
                             </thead>
                             <tbody class="td-color-job-card">
                                 <tr>
-                                    <td>22/03/2022</td>
-                                    <td>JCTK06</td>
-                                    <td>TKQ056</td>
+                                    <td>1</td>
+                                    <td>11/02/2001</td>
                                     <td>name</td>
-                                    <td>55,770</td>
+                                    <td>1234567890</td>
+                                    
+                                    <td>user</td>
+                                    <td>deal</td>
+                                    
+                                   
+                                    <td><a href=""><i class="icofont-ui-edit edit-edit"></i></a></td>
+                                    <td><a href=""><i class="icofont-ui-delete delete-delete"></i></a></td>
                                 </tr>
                                 <tr>
-                                    <td>22/03/2022</td>
-                                    <td>JCTK06</td>
-                                    <td>TKQ056</td>
+                                    <td>1</td>
+                                    <td>11/02/2001</td>
                                     <td>name</td>
-                                    <td>55,770</td>
+                                    <td>1234567890</td>
+                                    
+                                    <td>user</td>
+                                    <td>deal</td>
+                                    <td><a href=""><i class="icofont-ui-edit edit-edit"></i></a></td>
+                                    <td><a href=""><i class="icofont-ui-delete delete-delete"></i></a></td>
                                 </tr>
                                 <tr>
-                                    <td>22/03/2022</td>
-                                    <td>JCTK06</td>
-                                    <td>TKQ056</td>
+                                    <td>1</td>
+                                    <td>11/02/2001</td>
                                     <td>name</td>
-                                    <td>55,770</td>
+                                    <td>1234567890</td>
+                                    
+                                    <td>user</td>
+                                    <td>deal</td>
+                                    <td><a href=""><i class="icofont-ui-edit edit-edit"></i></a></td>
+                                    <td><a href=""><i class="icofont-ui-delete delete-delete"></i></a></td>
                                 </tr>
                                 <tr>
-                                    <td>22/03/2022</td>
-                                    <td>JCTK06</td>
-                                    <td>TKQ056</td>
+                                    <td>1</td>
+                                    <td>11/02/2001</td>
                                     <td>name</td>
-                                    <td>55,770</td>
+                                    <td>1234567890</td>
+                                    
+                                    <td>user</td>
+                                    <td>deal</td>
+                                    <td><a href=""><i class="icofont-ui-edit edit-edit"></i></a></td>
+                                    <td><a href=""><i class="icofont-ui-delete delete-delete"></i></a></td>
                                 </tr>
                                 <tr>
-                                    <td>22/03/2022</td>
-                                    <td>JCTK06</td>
-                                    <td>TKQ056</td>
+                                    <td>1</td>
+                                    <td>11/02/2001</td>
                                     <td>name</td>
-                                    <td>55,770</td>
+                                    <td>1234567890</td>
+                                    
+                                    <td>user</td>
+                                    <td>deal</td>
+                                    <td><a href=""><i class="icofont-ui-edit edit-edit"></i></a></td>
+                                    <td><a href=""><i class="icofont-ui-delete delete-delete"></i></a></td>
                                 </tr>
                                 <tr>
-                                    <td>22/03/2022</td>
-                                    <td>JCTK06</td>
-                                    <td>TKQ056</td>
+                                    <td>1</td>
+                                    <td>11/02/2001</td>
                                     <td>name</td>
-                                    <td>55,770</td>
+                                    <td>1234567890</td>
+                                    
+                                    <td>user</td>
+                                    <td>deal</td>
+                                    <td><a href=""><i class="icofont-ui-edit edit-edit"></i></a></td>
+                                    <td><a href=""><i class="icofont-ui-delete delete-delete"></i></a></td>
                                 </tr>
                                 <tr>
-                                    <td>22/03/2022</td>
-                                    <td>JCTK06</td>
-                                    <td>TKQ056</td>
+                                    <td>1</td>
+                                    <td>11/02/2001</td>
                                     <td>name</td>
-                                    <td>55,770</td>
+                                    <td>1234567890</td>
+                                    
+                                    <td>user</td>
+                                    <td>deal</td>
+                                    <td><a href=""><i class="icofont-ui-edit edit-edit"></i></a></td>
+                                    <td><a href=""><i class="icofont-ui-delete delete-delete"></i></a></td>
                                 </tr>
                                 <tr>
-                                    <td>22/03/2022</td>
-                                    <td>JCTK06</td>
-                                    <td>TKQ056</td>
+                                    <td>1</td>
+                                    <td>11/02/2001</td>
                                     <td>name</td>
-                                    <td>55,770</td>
+                                    <td>1234567890</td>
+                                    
+                                    <td>user</td>
+                                    <td>deal</td>
+                                    <td><a href=""><i class="icofont-ui-edit edit-edit"></i></a></td>
+                                    <td><a href=""><i class="icofont-ui-delete delete-delete"></i></a></td>
+                                </tr>
+
+                                <tr>
+                                    <td>1</td>
+                                    <td>11/02/2001</td>
+                                    <td>name</td>
+                                    <td>1234567890</td>
+                                    
+                                    <td>user</td>
+                                    <td>deal</td>
+                                    <td><a href=""><i class="icofont-ui-edit edit-edit"></i></a></td>
+                                    <td><a href=""><i class="icofont-ui-delete delete-delete"></i></a></td>
                                 </tr>
                                 <tr>
-                                    <td>22/03/2022</td>
-                                    <td>JCTK06</td>
-                                    <td>TKQ056</td>
+                                    <td>1</td>
+                                    <td>11/02/2001</td>
                                     <td>name</td>
-                                    <td>55,770</td>
+                                    <td>1234567890</td>
+                                    
+                                    <td>user</td>
+                                    <td>deal</td>
+                                    <td><a href=""><i class="icofont-ui-edit edit-edit"></i></a></td>
+                                    <td><a href=""><i class="icofont-ui-delete delete-delete"></i></a></td>
                                 </tr>
                                 <tr>
-                                    <td>22/03/2022</td>
-                                    <td>JCTK06</td>
-                                    <td>TKQ056</td>
+                                    <td>1</td>
+                                    <td>11/02/2001</td>
                                     <td>name</td>
-                                    <td>55,770</td>
-                                </tr>
-                                <tr>
-                                    <td>22/03/2022</td>
-                                    <td>JCTK06</td>
-                                    <td>TKQ056</td>
-                                    <td>name</td>
-                                    <td>55,770</td>
-                                </tr>
-                                <tr>
-                                    <td>22/03/2022</td>
-                                    <td>JCTK06</td>
-                                    <td>TKQ056</td>
-                                    <td>name</td>
-                                    <td>55,770</td>
-                                </tr>
-                                <tr>
-                                    <td>22/03/2022</td>
-                                    <td>JCTK06</td>
-                                    <td>TKQ056</td>
-                                    <td>name</td>
-                                    <td>55,770</td>
-                                </tr>
-                                <tr>
-                                    <td>22/03/2022</td>
-                                    <td>JCTK06</td>
-                                    <td>TKQ056</td>
-                                    <td>name</td>
-                                    <td>55,770</td>
-                                </tr>
+                                    <td>1234567890</td>
+                                    
+                                    <td>user</td>
+                                    <td>deal</td>
+                                    <td><a href=""><i class="icofont-ui-edit edit-edit"></i></a></td>
+                                    <td><a href=""><i class="icofont-ui-delete delete-delete"></i></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>11/02/2001</td>
+                                        <td>name</td>
+                                        <td>1234567890</td>
+                                        
+                                        <td>user</td>
+                                        <td>deal</td>
+                                        <td><a href=""><i class="icofont-ui-edit edit-edit"></i></a></td>
+                                    <td><a href=""><i class="icofont-ui-delete delete-delete"></i></a></td>
+                                        </tr>
                             </tbody>
                         </table>
                     </div>
 
-                
-                </div>
-
-
-            </div>
+            </div>         
+          </div>
         </div>
     </div>
 

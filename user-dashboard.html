@@ -5,18 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Edit Product</title>
+    <title>User Dashboard</title>
     <!-- CSS only -->
 
-     <!-- bootstrap -->
-     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-     <!-- style -->
- 
- 
-     <link rel="stylesheet" href="assets/css/style.css">
-     <!-- iconfont -->
-     <link rel="stylesheet" href="assets/css/icofont/icofont.min.css">
-     <link rel="stylesheet" href="assets/css/bootstrap-table.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- style -->
+
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- iconfont -->
+    <link rel="stylesheet" href="assets/css/icofont/icofont.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-table.css">
+
+
 </head>
 
 <body>
@@ -26,6 +27,8 @@
 
 
             <div class="col-auto col-md-3 col-xl-2 px-0 opacity-icon">
+
+
                 <div>
                     <img src="assets/image/Frame.png" class="d-block mx-auto logo-pad" alt="">
                 </div>
@@ -33,7 +36,7 @@
                     <ul class="ul-item ">
 
                         <li class="sidebar-li-items dasboard-hover">
-                            <a href="index.html" class="sidebar-li-items active ">
+                            <a href="user-dashboard.html" class="sidebar-li-items active ">
 
                                 <img src="assets/image/1-1.png " id="dashboard-hover-image" class="icons dasboard-hover"
                                     alt="">
@@ -46,7 +49,7 @@
 
 
                         <li class="sidebar-li-items customer-hover">
-                            <a href="customer-list.html" class="sidebar-li-items">
+                            <a href="user-customer-list.html" class="sidebar-li-items">
 
                                 <img src="assets/image/2-1.png" id="customer-hover-image" class="icons customer-hover"
                                     alt="">
@@ -57,7 +60,7 @@
                             </a>
                         </li>
                         <li class="sidebar-li-items product-hover">
-                            <a href="product-list.html" class="sidebar-li-items">
+                            <a href="user-product-list.html" class="sidebar-li-items">
                                 <img src="assets/image/3-1.png" id="product-hover-image" class="icons product-hover"
                                     alt="">
                                 Product
@@ -68,7 +71,7 @@
                         </li>
 
                         <li class="sidebar-li-items quotation-hover">
-                            <a href="quotation.html" class="sidebar-li-items">
+                            <a href="user-quotation.html" class="sidebar-li-items">
                                 <img src="assets/image/0-1.png" id="quotation-hover-image" class="icons quotation-hover"
                                     alt="">
                                 Quotation
@@ -127,12 +130,12 @@
                                 </div>
                             </a>
                         </li>
-                        
+
                     </ul>
 
 
-                    <div class="box py-3">
-                        <ul  class="ul-item ">
+                    <div class="box-user-dashboard">
+                        <ul class="ul-item ">
                             <li class="sidebar-li-items ">
                                 <a href="" class="sidebar-li-items">
                                     <img src="assets/image/9-1.png" class="icons " alt="">
@@ -150,7 +153,7 @@
                                     </div>
                                 </a>
                             </li>
-                            
+
                             <li class="sidebar-li-items">
                                 <a href="" class="sidebar-li-items">
                                     <i class="icofont-building-alt icons"></i>Factory
@@ -184,8 +187,8 @@
                                 </a>
                             </li>
                         </ul>
-                        
-                        
+
+
 
                     </div>
 
@@ -193,6 +196,7 @@
             </div>
 
             <div class="col">
+
                 <!-- As a heading -->
                 <nav class="navbar navbar-light bg-nav">
                     <div class="container-fluid navbar-icon">
@@ -211,175 +215,175 @@
                     </div>
                 </nav>
 
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="dashboard-pading">
-                                <h4 class="jobcard-font">Edit Product </h4>
-
-                            </div>
-                        </div>
-                        <diV class="col-lg-6">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="">
-                                        <span><a class=" back-color-add-product a-back-addcustomer"
-                                                href="product.html"><i
-                                                    class="icofont-long-arrow-left icon-pad "></i>Back</a></span>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </diV>
-                        <form action="" class="add-product-border">
-                            <div class="row add-job-card-pad">
-                                <div class="col-lg-4">
-                                    <div>
-                                        <label class="label-text-3" for="">Product Name</label>
-                                    </div>
-                                    <div>
-                                        <input type="text" class="form-control form-input">
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div>
-                                        <label class="label-text-3" for=""> Type</label>
-                                    </div>
-                                    <div>
-                                        <input type="text" class="form-control form-input">
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 select-box-pad">
-                                    <label for="">Category</label>
-                                    <select class="form-select" aria-label="Default select example">
-                                        
-                                        <option selected>Category</option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
-                                      </select>
-                                </div>
-
-                            </div>
-                            <div class="row ">
-                                <div class="col-lg-8">
-                                    <div class="row ">
-                                        <div class="col-lg-6">
-                                            <div>
-                                                <label class="label-text-3" for="">Height</label>
-                                            </div>
-                                            <div>
-                                                <input type="text" class="form-control form-input">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div>
-                                                <label class="label-text-3" for="">Width</label>
-                                            </div>
-                                            <div>
-                                                <input type="text" class="form-control form-input">
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="row add-job-card-section-pad">
-                                        <div class="col-lg-6">
-                                            <div>
-                                                <label class="label-text-3" for="">Qubic</label>
-                                            </div>
-                                            <div>
-                                                <input  type="text" class="form-control form-input">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div>
-                                                <label class="label-text-3" for="">Squre/feet</label>
-                                            </div>
-                                            <div>
-                                                <input  type="text" class="form-control form-input">
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                    <div class="row add-job-card-section-pad">
-                                        <div class="col-lg-6">
-                                            <div>
-                                                <label class="label-text-3" for="">Amount</label>
-                                            </div>
-                                            <div>
-                                                <input type="text" class="form-control form-input">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div>
-                                                <label class="label-text-3" for="">Remark</label>
-                                                <textarea class="form-control form-input" id="textAreaExample3"
-                                                    rows="4"></textarea>
-
-                                            </div>
-
-
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-4">
-                                    <img src="assets/image/wooden-window-500x500.jpg" alt="" class="product-image">
-                                    <div class="file-input">
-                                        <input
-                                          type="file"
-                                          name="file-input"
-                                          id="file-input"
-                                          class="file-input__input"
-                                        />
-                                        <label class="file-input__label" for="file-input">
-                                          <svg
-                                            aria-hidden="true"
-                                            focusable="false"
-                                            data-prefix="fas"
-                                            data-icon="upload"
-                                            class="svg-inline--fa fa-upload fa-w-16"
-                                            role="img"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            viewBox="0 0 512 512"
-                                          >
-                                            <!-- <path
-                                              fill="currentColor"
-                                              d="M296 384h-80c-13.3 0-24-10.7-24-24V192h-87.7c-17.8 0-26.7-21.5-14.1-34.1L242.3 5.7c7.5-7.5 19.8-7.5 27.3 0l152.2 152.2c12.6 12.6 3.7 34.1-14.1 34.1H320v168c0 13.3-10.7 24-24 24zm216-8v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h136v8c0 30.9 25.1 56 56 56h80c30.9 0 56-25.1 56-56v-8h136c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z"
-                                            ></path> -->
-                                          </svg>
-                                          <span class="add-image-siz">Add Image</span><i class="icofont-camera-alt camera-size"></i></label>
-                                </div>
-
-                                
-                            </div>
-                            <div class="row py-5 button-align">
-
-                                <button class="add-job-card-button">Submit</button>
-
-                            </div>
-
-                        </form>
+                <div class="container ">
+                    <div class="dashboard-pading">
+                        <h3 class="dashboard-font">Dashboard <span class="date-color">january 2022</span><span
+                                class="time-color">TIME 12:9</span></h3>
+                    </div>
+                    <div>
+                        <label class="index-jobcard">Job Card</label>
                     </div>
 
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="row">
+
+
+                                <div class="col-lg-4">
+                                    <div class="invoice-box2-quotation">
+                                        <div class="text-center">
+                                            <span class="margin-none quo-font">Quotations</span>
+                                            <hr class="margin-none line-width">
+                                            <span class="margin-none month-font">January</span>
+                                            <h4 class="head4-size margin-none">0</h4>
+                                            <hr class="margin-none line-width">
+                                            <span class="margin-none month-font">Total</span>
+                                            <h3 class="head4-size margin-none">70,018</h3>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="invoice-box3-expense">
+                                        <div class="text-center">
+                                            <span class="margin-none quo-font">Expense</span>
+                                            <hr class="margin-none line-width">
+                                            <span class="margin-none month-font">January</span>
+                                            <h4 class="head4-size margin-none">100</h4>
+                                            <hr class="margin-none line-width">
+                                            <span class="margin-none month-font">Total</span>
+                                            <h3 class="head4-size margin-none">70,018</h3>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="invoice-box4-income">
+                                        <div class="text-center">
+                                            <span class="margin-none quo-font">Income</span>
+                                            <hr class="margin-none line-width">
+                                            <span class="margin-none month-font">January</span>
+                                            <h4 class="head4-size margin-none">70000</h4>
+                                            <hr class="margin-none line-width">
+                                            <span class="margin-none month-font">Total</span>
+                                            <h3 class="head4-size margin-none">70,018</h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="container">
+
+                                    <div class="user-jobcard-border">
+                                        <div class="row">
+                                            <div class="col-lg-12 text-center user-jobcard">
+                                                <label for="">Job Card</label>
+                                            </div>
+                                        </div>
+                                        <div class="row no-gutters gx-5">
+                                            <div class="col mt-3 ">
+                                                <div class="invoice-box1">
+                                                    <div class="text-center">
+                                                        <span class="margin-none open-font">Open</span>
+                                                        <hr class="margin-none line-width">
+
+                                                        <h4 class="head4-size margin-none open-content">70000</h4>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col mt-3 ">
+                                                <div class="invoice-box2">
+                                                    <div class="text-center">
+                                                        <span class="margin-none open-font">On process</span>
+                                                        <hr class="margin-none line-width">
+
+                                                        <h4 class="head4-size margin-none open-content">70000</h4>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col mt-3 ">
+                                                <div class="invoice-box3">
+                                                    <div class="text-center">
+                                                        <span class="margin-none open-font">Pending</span>
+                                                        <hr class="margin-none line-width">
+
+                                                        <h4 class="head4-size margin-none open-content">70000</h4>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col mt-3 ">
+                                                <div class="invoice-box3-pending">
+                                                    <div class="text-center">
+                                                        <span class="margin-none open-font">Completed</span>
+                                                        <hr class="margin-none line-width">
+
+                                                        <h4 class="head4-size margin-none open-content">70000</h4>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col mt-3 ">
+                                                <div class="invoice-box4">
+                                                    <div class="text-center">
+                                                        <span class="margin-none open-font">Delivered</span>
+                                                        <hr class="margin-none line-width">
+
+                                                        <h4 class="head4-size margin-none open-content">70000</h4>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-10 col-10 pt-3">
+                            <canvas id="myChart" style="display:block;height:350px;width:894px;"></canvas>.
+                            <div id="js-legend" class="chart-legend"></div>
+                        </div>
+                        <div class="col-lg-2 col-2 dropdown-pad ">
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle drop-btn" type="button"
+                                    id="dropdown-arrow">
+                                    Last Year
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" id="drop-down-list">
+                                    <li><a class="dropdown-item" href="#">2021</a></li>
+                                    <li><a class="dropdown-item" href="#">2020</a></li>
+                                    <li><a class="dropdown-item" href="#">2019</a></li>
+
+                                </ul>
+                                <i class="icofont-simple-down dr-arrow " id="dropdown-arrow"></i>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>
 
         </div>
     </div>
-<!-- JavaScript -->
-<script src="assets/js/pooper.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/dataTable.min.js" defer></script>
 
-<script src="assets/js/data-table.js "></script>
-<script src="assets/js/chart.js"></script>
-<script src="assets/js/main.js"></script>
+
+
+    <script src="assets/js/pooper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/dataTable.min.js" defer></script>
+
+    <script src="assets/js/data-table.js "></script>
+    <script src="assets/js/chart.js"></script>
+    <script src="assets/js/main.js"></script>
+
+
 </body>
 
 </html>
