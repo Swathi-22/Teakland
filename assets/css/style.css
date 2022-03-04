@@ -81,14 +81,14 @@ body::-webkit-scrollbar {
     background: #E2FFEA;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 3.88604px;
-    margin: 0px 36px;
+    margin: 0px 2px;
 }
 .invoice-box2{
     /* height: 79px; */
     background: #FFF1E2;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 3.88604px;
-    margin: 0px 36px;
+    margin: 0px 2px;
 }
 .invoice-box2-quotation{
    
@@ -103,7 +103,7 @@ body::-webkit-scrollbar {
     background: #E2EAFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 3.88604px;
-    margin: 0px 36px;
+    margin: 0px 2px;
  }
  .invoice-box3-expense{
 
@@ -119,14 +119,14 @@ body::-webkit-scrollbar {
     background: #E2F8FF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 3.88604px;
-    margin: 0px 36px;
+    margin: 0px 2px;
  }
 .invoice-box4{
     /* height: 79px; */
     background:  #FFE2E2;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 3.88604px;
-    margin: 0px 36px;
+    margin: 0px 2px;
 }
 .invoice-box4-income{
     background:  #E2F8FF;
@@ -466,7 +466,7 @@ label{
     font-size: 14px;
 }
 .add-job-card-section-pad{
-    padding-top:1.5rem;
+    padding-top:1.7rem;
 }
 .last-row-pad{
     padding-bottom: 27px;
@@ -486,10 +486,10 @@ color: white;
     justify-content: center;
 }
 .back-color-add-customer{
-    background-color: #EDFFF6;
+    background-color: #C2976C;
     border: none ;
     margin-top: 27px;
-    margin-left: 328px;
+    margin-left: 396px;
     padding: 1px 11px 1px 5px;
     box-shadow: -1px 1px 2px rgba(151, 163, 157, 0.2), 1px -1px 2px rgba(151, 163, 157, 0.2), -1px -1px 2px rgba(255, 255, 255, 0.9), 1px 1px 3px rgba(151, 163, 157, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(151, 163, 157, 0.5);
 border-radius: 6px;
@@ -504,10 +504,10 @@ border-radius: 6px;
     border-radius: 20px;
 }
 .back-color-add-product{
-    background-color: #FFF1E2;
+    background-color: #C2976C;
     border: none;
     margin-top: 27px;
-    margin-left: 328px;
+    margin-left: 394px;
     padding: 1px 11px 1px 5px;
     box-shadow: -1px 1px 2px rgba(151, 163, 157, 0.2), 1px -1px 2px rgba(151, 163, 157, 0.2), -1px -1px 2px rgba(255, 255, 255, 0.9), 1px 1px 3px rgba(151, 163, 157, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(151, 163, 157, 0.5);
 border-radius: 6px;
@@ -626,7 +626,7 @@ border-radius: 6px;
     background-color:  #E5ECFF;
     border: none ;
     margin-top: 27px;
-    margin-left: 328px;
+    margin-left: 395px;
     padding: 1px 11px 1px 5px;
     box-shadow: -1px 1px 2px rgba(151, 163, 157, 0.2), 1px -1px 2px rgba(151, 163, 157, 0.2), -1px -1px 2px rgba(255, 255, 255, 0.9), 1px 1px 3px rgba(151, 163, 157, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(151, 163, 157, 0.5);
 border-radius: 6px;
@@ -874,7 +874,7 @@ tbody, td, tfoot, th, thead, tr {
     margin: auto;
 }
 .table-head-style-jobcard{
-    background-color: #161515;
+    background-color: #fff;
     color: #3A2316;
 }
 .opacity-icon {
@@ -1022,15 +1022,27 @@ border-radius: 6px;
 .edit-customer-color-add-quotation{
     background-color:  #E5ECFF;
     border: none ;
+    font-size: 14px;
     width: 32%;
     margin-top: 27px;
-    margin-left: 328px;
-    padding: 1px 11px 1px 5px;
+    margin-left: 296px;
+    padding: 4px 11px 4px 5px;
     box-shadow: -1px 1px 2px rgba(151, 163, 157, 0.2), 1px -1px 2px rgba(151, 163, 157, 0.2), -1px -1px 2px rgba(255, 255, 255, 0.9), 1px 1px 3px rgba(151, 163, 157, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(151, 163, 157, 0.5);
     border-radius: 6px;
 
 }
+.edit-customer-color-add-quotation:hover{
+    background-color:  #E5ECFF;
+    border: none ;
+    font-size: 14px;
+    width: 32%;
+    margin-top: 27px;
+    margin-left: 296px;
+    padding: 4px 11px 4px 5px;
+    box-shadow: -1px 1px 2px rgba(151, 163, 157, 0.2), 1px -1px 2px rgba(151, 163, 157, 0.2), -1px -1px 2px rgba(255, 255, 255, 0.9), 1px 1px 3px rgba(151, 163, 157, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(151, 163, 157, 0.5);
+    border-radius: 6px;
 
+}
 .dropbtn-product {
   /* background-color: #04AA6D; */
   color: white;
@@ -1172,6 +1184,19 @@ border-radius: 6px;
       width: 86%;
       padding: 0.3rem 0.75rem;
   }
+  .form-control-invoice{
+    border-radius: 21px;
+    border: 1px solid #2C2420;
+    width: 100%;
+    margin: auto;
+    padding: 0.3rem 0.75rem;
+}
+.form-control-edit-invoice{
+    border-radius: 21px;
+    border: 1px solid #2C2420;
+    width: 93%;
+    padding: 0.3rem 0.75rem;
+}
   .form-text{
       color:  #000402;
       padding-left: 13px;
@@ -1281,4 +1306,60 @@ color: #3A2316;
 }
 .user-customer-form-pad{
     padding-top: 1rem;
+}
+.container-pad{
+    padding: 0px 66px;
+}
+.quotation-edit{
+    padding-right: 57px;
+}
+.quotation-popup-width{
+    width: 35%;
+    margin: auto;
+}
+.quotation-popup-element-pad{
+    padding: 5px 0px;
+}
+.add-customer{
+    background-color:  #E5ECFF;
+    border: none ;
+    font-size: 14px;
+    width: 32%;
+    /* margin-top: 27px; */
+    margin-left: 296px;
+    padding: 4px 11px 4px 5px;
+    box-shadow: -1px 1px 2px rgba(151, 163, 157, 0.2), 1px -1px 2px rgba(151, 163, 157, 0.2), -1px -1px 2px rgba(255, 255, 255, 0.9), 1px 1px 3px rgba(151, 163, 157, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(151, 163, 157, 0.5);
+    border-radius: 6px;
+
+}
+.add-customer:hover{
+    background-color:  #E5ECFF;
+    border: none ;
+    font-size: 14px;
+    width: 32%;
+    /* margin-top: 27px; */
+    margin-left: 296px;
+    padding: 4px 11px 4px 5px;
+    box-shadow: -1px 1px 2px rgba(151, 163, 157, 0.2), 1px -1px 2px rgba(151, 163, 157, 0.2), -1px -1px 2px rgba(255, 255, 255, 0.9), 1px 1px 3px rgba(151, 163, 157, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(151, 163, 157, 0.5);
+    border-radius: 6px;
+
+}
+.jobcard-row-pad{
+    padding: 0px 36px;
+}
+.jobcard-head-padding{
+    padding-left: 50px;
+}
+.form-control-remark--jobcard-download{
+    /* border-radius: 21px; */
+    /* border: 1px solid #2C2420; */
+    width: 100%;
+    padding: 0.3rem 0.75rem;
+}
+.h4-align{
+    font-size: 19px;
+}
+.class-Number{
+    font-size: 16px;
+    color: #3A2316;
 }

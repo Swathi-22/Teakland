@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Invoice</title>
-        <!-- CSS only -->
-    
-         <!-- bootstrap -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!-- style -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Add Invoice</title>
+    <!-- CSS only -->
 
-
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!-- iconfont -->
-    <link rel="stylesheet" href="assets/css/icofont/icofont.min.css">
-    <link rel="stylesheet" href="assets/css/bootstrap-table.css">
-    
-    </head>
+     <!-- bootstrap -->
+     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+     <!-- style -->
+ 
+ 
+     <link rel="stylesheet" href="assets/css/style.css">
+     <!-- iconfont -->
+     <link rel="stylesheet" href="assets/css/icofont/icofont.min.css">
+     <link rel="stylesheet" href="assets/css/bootstrap-table.css">
 
 <body>
     <div class="container-fluid">
@@ -193,9 +191,8 @@
                 </div>
             </div>
 
-
-            <div class="col bgcolor">
-
+            <div class="col">
+                <!-- As a heading -->
                 <nav class="navbar navbar-light bg-nav">
                     <div class="container-fluid navbar-icon">
                         <div class="row">
@@ -213,252 +210,162 @@
                     </div>
                 </nav>
 
-                <div class="container">
+                <div class="container container-pad">
                     <div class="row">
-                        <div class="col-lg-2">
+                        <div class="col-lg-6">
                             <div class="dashboard-pading">
-                                <h4 class="jobcard-font">Invoice </h4>
-                                <span class="date-color-job-card">January 22</span>
+                                <h4 class="jobcard-font"> Add invoice </h4>
+
                             </div>
                         </div>
-                        <div class="col-lg-10 filter-button">
-                            <div class="dropdown">
-                                <button class="dropbtn">Filter</button>
-                                <div class="dropdown-content">
-                                <a href="#">Not Send</a>
-                                <a href="#">Partially Paid</a>
-                                <a href="#">Fully Paid</a>
+                        <diV class="col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="">
+                                        <span><a class=" back-color-add-customer a-back-addcustomer"
+                                                href="customer.html"><i
+                                                    class="icofont-long-arrow-left icon-pad "></i>Back</a></span>
+                                    </div>
                                 </div>
-                              </div>
-                        </div>
-                        <!-- <div class="col-lg-10">
-                            <div class="py-4 pr-3">
-                                <div class="row">
-                                    <div class="col-lg-2 button-margin "><a
-                                            class="job-card-buttons-open a-create-jobcard" href="jobcard-open.html">
-                                            Open</a></div>
-                                    <div class="col-lg-2 button-margin"><a class="job-card-buttons a-create-jobcard"> On
-                                            process</a>
-                                    </div>
-                                    <div class="col-lg-2 button-margin"> <a class="job-card-buttons a-create-jobcard">
-                                            Completed</a>
-                                    </div>
-                                    <div class="col-lg-2 button-margin"> <a class="job-card-buttons a-create-jobcard">
-                                            Delivered</a>
-                                    </div>
-                                    <div class="col-lg-2 "><a class="job-card-buttons  a-create-jobcard"
-                                            href="add-job-card.html"><i class="icofont-plus icon-pad"></i>Create</a>
-                                    </div>
 
+                            </div>
+
+                        </diV>
+                        <form action="" class="add-customer-border">
+                            <div class="row">
+                               
+                                    <div class="col-lg-6">
+                                        <div class="pt-4">
+                                            <label for="" class="class-Number">Invoice Number : TKQ056</label>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="col-lg-6">
+                                        <div class="user-customer-form-edit">
+                                            <a href=""><i class="icofont-ui-edit edit-edit"></i></a>
+                                        </div>
+                                    </div> -->
+                                    
+                                
+                            </div>
+                            <div class="row user-customer-form-pad">
+                                <div class="col-lg-4">
+                                    <div>
+                                        <label class="label-text-3" for="">Date</label>
+                                    </div>
+                                    <div>
+                                        <input type="text" class="form-control form-input ">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div>
+                                        <label class="label-text-3" for=""> Quotation Number</label>
+                                    </div>
+                                    <div>
+                                        <input type="text" class="form-control form-input">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div>
+                                        <label class="label-text-3" for="">Customer</label>
+                                    </div>
+                                    <div>
+                                        <input type="text" class="form-control form-input">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row add-job-card-section-pad">
+                                <div class="col-lg-4">
+                                    <div>
+                                        <label class="label-text-3" for="">User</label>
+                                    </div>
+                                    <div>
+                                        <input type="text" class="form-control form-input">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div>
+                                        <label class="label-text-3" for="">Salesman</label>
+                                    </div>
+                                    <div>
+                                        <input type="text" class="form-control form-input">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div>
+                                        <label class="label-text-3" for="">GST number</label>
+                                    </div>
+                                    <div>
+                                        <input type="text" class="form-control form-input">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row add-job-card-section-pad">
+                                <div class="col-lg-4">
+                                    <div>
+                                        <label class="label-text-3" for="">Tax</label>
+                                    </div>
+                                    <div>
+                                        <input type="text" class="form-control form-input">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div>
+                                        <label class="label-text-3" for="">Total Amount</label>
+                                    </div>
+                                    <div>
+                                        <input type="text" class="form-control form-input">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div>
+                                        <label class="label-text-3" for="">Amount Received</label>
+                                    </div>
+                                    <div>
+                                        <input type="text" class="form-control form-input">
+                                     </div>
+                                </div>
+
+                            </div>
+                            <div class="row add-job-card-section-pad last-row-pad">
+                                
+                                <div class="col-lg-4">
+                                    <div>
+                                        <label class="label-text-3" for="">Outstanding Amount</label>
+                                    </div>
+                                    <div>
+                                        <input type="text" class="form-control form-input">
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 ">
+                                    <div class="form-outline">
+                                        <label class="label-text-3" for="">Remark</label>
+                                        <textarea class="form-control-edit-invoice form-input" id="textAreaExample3" rows="2"></textarea>
+
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 col-12 ">
+                                    <div class="text-center py-5">
+                                        <button class="button-send">Add invoice</button>
+                                    </div>
                                 </div>
                             </div>
 
-                        </div> -->
-
+                        </form>
                     </div>
 
-                    <!-- <div class="open-div">
 
-                    </div> -->
-                    <div class="container mt-4">
-                        
-                        <table class="table" id="example">
-                            <thead>
-
-
-                                <tr class="border th-color">
-
-                                    <th>Branch</th>
-                                    <th>Open</th>
-                                    <th>On processs</th>
-                                    <th>Completed</th>
-                                    <th>Pending</th>
-                                    <th>Delivered</th>
-
-
-
-                                </tr>
-                            </thead>
-                            <tbody class="td-color-job-card">
-                                <tr>
-
-                                    <td>kochi</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                </tr>
-                                <tr>
-
-                                    <td>kochi</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                </tr>
-                                <tr>
-
-                                    <td>kochi</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                </tr>
-                                <tr>
-
-                                    <td>kochi</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                </tr>
-                                <tr>
-
-                                    <td>kochi</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                </tr>
-                                <tr>
-
-                                    <td>kochi</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                </tr>
-                                <tr>
-
-                                    <td>kochi</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                </tr>
-                                <tr>
-
-                                    <td>kochi</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                </tr>
-                                <tr>
-
-                                    <td>kochi</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                </tr>
-                                <tr>
-
-                                    <td>kochi</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                </tr>
-                                <tr>
-
-                                    <td>kochi</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                </tr>
-                                <tr>
-
-                                    <td>kochi</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                </tr>
-                                <tr>
-
-                                    <td>kochi</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                </tr>
-                                <tr>
-
-                                    <td>kochi</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-
-                    <section class="section-pad">
-                        <div class="mt-5 ">
-     
-                            <form >
-                             
-                              <div class="form-fields row">
-                               
-                                
-                               
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group">
-                                  <div class="row">
-                                      <div class="col-lg-6">
-                                        <h6 class="h4-align">Reconcile Invoice
-                                        </h6>
-                                      </div>
-                                      <div class="col-lg-6">
-                                          <div class="date-field">
-                                              <label for="">22/02/2022</label>
-                                          </div>
-                                      </div>
-                                  </div>
-                                  
-                                  
-                                  <label class="label-text">Amount Received</label>
-                                  <input type="text" class="form-control-invoice required " >
-                                </div>
-                      
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group">
-                                 
-                                  <div class="mb-3">
-                                    <label class="label-text">Description</label>
-                                    <textarea class="form-control-invoice"  rows="3"></textarea>
-                                  </div>
-                                </div>
-                                
-                                
-                              </div>
-                            </form>
-                          </div>
-                    </section>
                 </div>
-
-
             </div>
+
         </div>
     </div>
 
 
-    <!-- JavaScript Bundle with Popper -->
+    <!-- JavaScript -->
     <script src="assets/js/pooper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/jquery.min.js"></script>
