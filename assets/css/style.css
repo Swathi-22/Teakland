@@ -277,6 +277,15 @@ ol, ul {
     cursor: pointer;
 
 }
+.sidebar-li-items-from-user{
+    padding: 14px 10px ;
+    color:  #A49689;
+}
+.sidebar-li-items-from-user:hover{
+    padding: 14px 10px ;
+    padding: 10px 0px 12px 0px ;
+    color:  #fff;
+}
 .ul-item{
     list-style: none;
 }
@@ -374,7 +383,7 @@ th,td{
     border-radius: 6px;
 }
 .icon-pad{
-    padding: 8px;
+    padding: 4px;
     font-size: 20px;
 }
 .dataTables_filter input {
@@ -1005,7 +1014,7 @@ border-radius: 6px;
     border-radius: 8px;
 }
 .container-padding-productlist{
-    padding: 0px 50px;
+    padding: 37px 50px;
 }
 .select-box-pad{
     padding-bottom: 41px;
@@ -1197,6 +1206,12 @@ border-radius: 6px;
     width: 93%;
     padding: 0.3rem 0.75rem;
 }
+.form-control-add-expense{
+    border-radius: 21px;
+    border: 1px solid #2C2420;
+    width: 96%;
+    padding: 0.3rem 0.75rem;
+}
   .form-text{
       color:  #000402;
       padding-left: 13px;
@@ -1362,4 +1377,52 @@ color: #3A2316;
 .class-Number{
     font-size: 16px;
     color: #3A2316;
+}
+.date-date{
+
+    padding-left: 39px;
+}
+.report-invoice{
+    display: block;
+    padding-bottom: 5px;
+}
+.report-invoice-font{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    color: #3A2316;
+}
+.head3-size-report{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 54px;
+
+    color: #3A2316;
+}
+.report-invoice-box{
+   
+    background: #FFF1E2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3.88604px;
+    margin: auto;
+    width: 74%;
+}
+.report-expense-box{
+
+    background: #E2EAFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3.88604px;
+    margin: auto;
+    width: 74%;
+
+ }
+ .report-balance-box{
+    background:  #E2F8FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3.88604px;
+    margin: auto;
+    width: 74%;
+
 }

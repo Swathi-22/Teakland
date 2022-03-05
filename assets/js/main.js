@@ -86,22 +86,55 @@ $('.reports-hover').mouseleave(function(){
 
 
 
-$('.reports-hover').mouseenter(function(){
-    $('#reports-hover-image').attr('src','assets/image/8-1.png')
-})
-$('.reports-hover').mouseleave(function(){
-    $('#reports-hover-image').attr('src','assets/image/9-2.png')
-})
-
-
-
 $('.users-hover').mouseenter(function(){
     $('#users-hover-image').attr('src','assets/image/9-1.png')
 })
 $('.users-hover').mouseleave(function(){
-    $('#users-hover-image').attr('src','assets/image/10-2.png')
+    $('#users-hover-image').attr('src','assets/image/9-1.png')
 })
 
+
+
+$('.salesman-hover').mouseenter(function(){
+    $('#salesman-hover-image').attr('src','assets/image/SALES-MAN.png')
+})
+$('.salesman-hover').mouseleave(function(){
+    $('#salesman-hover-image').attr('src','assets/image/SALES-MAN.png')
+})
+
+
+
+$('.factory-hover').mouseenter(function(){
+    $('#factory-hover-image').attr('src','assets/image/3.png')
+})
+$('.factory-hover').mouseleave(function(){
+    $('#factory-hover-image').attr('src','assets/image/3.png')
+})
+
+
+$('.feedback-hover').mouseenter(function(){
+    $('#feedback-hover-image').attr('src','assets/image/FEEDBACK.png')
+})
+$('.feedback-hover').mouseleave(function(){
+    $('#feedback-hover-image').attr('src','assets/image/FEEDBACK.png')
+})
+
+
+
+$('.gallery-hover').mouseenter(function(){
+    $('#gallery-hover-image').attr('src','assets/image/1.png')
+})
+$('.gallery-hover').mouseleave(function(){
+    $('#gallery-hover-image').attr('src','assets/image/1.png')
+})
+
+
+$('.issues-hover').mouseenter(function(){
+    $('#issues-hover-image').attr('src','assets/image/2.png')
+})
+$('.issues-hover').mouseleave(function(){
+    $('#issues-hover-image').attr('src','assets/image/2.png')
+})
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
   }
