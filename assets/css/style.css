@@ -1426,3 +1426,54 @@ color: #3A2316;
     width: 74%;
 
 }
+.factory-table-padding{
+    padding-top: 118px;
+
+}
+.feedback-explin-form-box{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 29px;
+    padding-bottom: 35px;
+}
+.feedback-detail-page-firstrow{
+    padding: 30px 30px;
+}
+.feedback-detail-page-clear-btn-align{
+    text-align: end;
+}
+.feedback-detail-page-clear-btn{
+    border: 1px solid #3A2316;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #C2976C;
+    padding: 2px 12px;
+}
+.feedback-detail-page-paragrap-border{
+    background: #FFFFFF;
+    border: 1px solid #3A2316;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    width: 92%;
+    margin: auto;
+}
+.feedback-detail-page-paragrap{
+    padding: 25px 0px;
+    text-align: justify;
+}
+.feedback-detail-page-quotation-no{
+    padding-top: 10px;
+}
+.gallery-image{
+    /* height: 260px; */
+    width: 100%;
+    border-radius: 25px;
+
+}
+.gallery-image-photos{
+    border: 2px solid #3A2316;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 5px 6px rgba(0, 0, 0, 0.03);
+    border-radius: 25px;
+}
