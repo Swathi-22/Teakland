@@ -83,12 +83,26 @@ body::-webkit-scrollbar {
     border-radius: 3.88604px;
     margin: 0px 2px;
 }
+.user-dashbord-box1{
+    /* height: 79px; */
+    background: #E2FFEA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3.88604px;
+    margin: 0px 37px;
+}
 .invoice-box2{
     /* height: 79px; */
     background: #FFF1E2;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 3.88604px;
     margin: 0px 2px;
+}
+.user-dashbord-box2{
+    /* height: 79px; */
+    background: #FFF1E2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3.88604px;
+    margin: 0px 37px;
 }
 .invoice-box2-quotation{
    
@@ -98,7 +112,14 @@ body::-webkit-scrollbar {
     margin: auto;
     width: 85%;
 }
-.invoice-box3{
+.user-dashbord-box3{
+    /* height: 79px; */
+    background: #E2EAFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3.88604px;
+    margin: 0px 37px;
+ }
+ .invoice-box3{
     /* height: 79px; */
     background: #E2EAFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -121,12 +142,26 @@ body::-webkit-scrollbar {
     border-radius: 3.88604px;
     margin: 0px 2px;
  }
+ .user-dashbord-box3{
+    /* height: 79px; */
+    background:  #E2F8FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3.88604px;
+    margin: 0px 37px;
+ }
 .invoice-box4{
     /* height: 79px; */
     background:  #FFE2E2;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 3.88604px;
     margin: 0px 2px;
+}
+.user-dashbord-box4{
+    /* height: 79px; */
+    background:  #E2EAFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3.88604px;
+    margin: 0px 37px;
 }
 .invoice-box4-income{
     background:  #E2F8FF;
@@ -142,6 +177,13 @@ body::-webkit-scrollbar {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 3.88604px;
 }
+.user-dashbord-box5{
+    /* height: 79px; */
+    background:  #FFE2E2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3.88604px;
+    margin: 0px 37px;
+ }
 
 .head4-size{
     font-style: normal;
