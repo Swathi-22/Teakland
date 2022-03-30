@@ -309,7 +309,7 @@ ol, ul {
     
 }
 .sidebar-li-items{
-    padding: 14px 10px ;
+    padding: 14px 9px ;
     color:  #A49689;
 
 }
@@ -1519,3 +1519,27 @@ color: #3A2316;
     box-shadow: 0px 4px 5px 6px rgba(0, 0, 0, 0.03);
     border-radius: 25px;
 }
+
+.sidebar-nav{
+    list-style:none; 
+    width:200px;
+}
+.sub-menu{
+    padding:0; 
+    display:none; 
+    list-style:none;
+}
+.sidebar-nav li.active ul{
+    display:block;
+}
+.product-sub-li{
+    color: #2C2420 !important;
+    padding-left: 31px;
+}
+.product-sub-li:hover{
+    color: #2C2420 !important;
+}
+
+
+
+

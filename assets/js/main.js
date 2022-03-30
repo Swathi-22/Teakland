@@ -215,3 +215,10 @@ var myChart = new Chart(ctx, {
 $('[id=dropdown-arrow]').click(function(){
     $('#drop-down-list').fadeToggle()
 })
+
+
+
+
+$('.sidebar-nav li a').click(function(){
+    $(this).parent().toggleClass('active')
+  })
